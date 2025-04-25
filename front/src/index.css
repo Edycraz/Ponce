@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import './styles/variables.css';
+@import './styles/animations.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* En tu archivo CSS */
+.area-card:hover .area-content {
+  transform: translateY(0) !important;
+}
+
+.area-card:hover .area-description {
+  opacity: 1 !important;
+}

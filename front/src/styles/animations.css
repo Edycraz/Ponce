@@ -1,0 +1,45 @@
+@keyframes sheen {
+    0% { transform: skewX(-20deg) translateX(-120px); }
+    10% { transform: skewX(-20deg) translateX(320px); }
+    100% { transform: skewX(-20deg) translateX(320px); }
+  }
+  
+  /* Efectos hover */
+  .area-card:hover .area-image {
+    transform: scale(1.05);
+  }
+  
+  .area-card:hover .area-content {
+    transform: translateY(0);
+  }
+  
+  .area-card:hover .area-description {
+    opacity: 1;
+  }
+  
+  .benefit-card:hover .benefit-line {
+    height: 100%;
+  }
+  
+  .footer-link:hover span {
+    width: 100%;
+  }
+  
+  .social-link:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-3px);
+  }
+  
+  .btn-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color-primary);
+    transition: width var(--transition-fast);
+  }
+  
+  button:hover .btn-line {
+    width: 100%;
+  }

@@ -1,0 +1,32 @@
+:root {
+  /* Colores basados en la información de Alicia Ponce */
+  --color-primary: #AFAAC8; /* Lila/violeta */
+  --color-secondary: #c4a7ff; /* Lila claro */
+  --color-text-primary: #333333;
+  --color-text-secondary: #777777; /* Gris */
+  --color-text-tertiary: #999999;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f8f8;
+  --color-bg-tertiary: #f1f1f1;
+  
+  /* Espaciado */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 5rem;
+  
+  /* Tamaños de fuente */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 3rem;
+  --font-size-hero: clamp(3rem, 6vw, 5rem);
+  
+  /* Bordes */
+  --border-light: 1px solid rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
